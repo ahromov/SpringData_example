@@ -6,7 +6,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-
 @Entity
 public class University {
 
@@ -28,19 +27,6 @@ public class University {
 
     @Column
     private String address;
-
-//    public University() {
-//
-//    }
-//
-//    public University(Long id, String name, String acreditation, Integer instCount, int studentsCount, String address) {
-//	this.id = id;
-//	this.name = name;
-//	this.acreditation = acreditation;
-//	this.instCount = instCount;
-//	this.studentsCount = studentsCount;
-//	this.address = address;
-//    }
 
     public Long getId() {
 	return id;
