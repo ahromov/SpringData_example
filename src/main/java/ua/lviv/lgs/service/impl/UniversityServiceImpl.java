@@ -1,4 +1,4 @@
-package ua.lviv.lgs.hw17.service.impl;
+package ua.lviv.lgs.service.impl;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import ua.lviv.lgs.entity.University;
-import ua.lviv.lgs.hw17.service.UniversityService;
 import ua.lviv.lgs.repository.UniversityRepository;
+import ua.lviv.lgs.service.UniversityService;
 
 @Service
 public class UniversityServiceImpl implements UniversityService {

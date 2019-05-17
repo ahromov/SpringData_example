@@ -1,4 +1,4 @@
-package ua.lviv.lgs.hw17.service;
+package ua.lviv.lgs.service;
 
 import java.util.List;
 
