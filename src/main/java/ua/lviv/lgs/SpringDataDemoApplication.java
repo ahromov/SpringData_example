@@ -8,10 +8,10 @@ import ua.lviv.lgs.entity.University;
 import ua.lviv.lgs.service.UniversityService;
 
 @SpringBootApplication
-public class SpringDataApplication {
+public class SpringDataDemoApplication {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext ctx = SpringApplication.run(SpringDataApplication.class, args);
+		ConfigurableApplicationContext ctx = SpringApplication.run(SpringDataDemoApplication.class, args);
 
 		UniversityService service = ctx.getBean(UniversityService.class);
 
