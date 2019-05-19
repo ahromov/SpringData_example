@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import ua.lviv.lgs.entity.University;
+import ua.lviv.lgs.model.University;
 import ua.lviv.lgs.service.UniversityService;
 
 @SpringBootApplication

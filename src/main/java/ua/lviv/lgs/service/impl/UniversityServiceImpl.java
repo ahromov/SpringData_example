@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import ua.lviv.lgs.entity.University;
+import ua.lviv.lgs.model.University;
 import ua.lviv.lgs.repository.UniversityRepository;
 import ua.lviv.lgs.service.UniversityService;
 

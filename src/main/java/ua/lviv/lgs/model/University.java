@@ -1,4 +1,4 @@
-package ua.lviv.lgs.entity;
+package ua.lviv.lgs.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

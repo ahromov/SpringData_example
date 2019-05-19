@@ -2,7 +2,7 @@ package ua.lviv.lgs.service;
 
 import java.util.List;
 
-import ua.lviv.lgs.entity.University;
+import ua.lviv.lgs.model.University;
 
 public interface UniversityService {
 
