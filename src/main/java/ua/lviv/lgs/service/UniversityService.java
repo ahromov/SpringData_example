@@ -2,18 +2,36 @@ package ua.lviv.lgs.service;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import ua.lviv.lgs.model.University;
+import ua.lviv.lgs.repository.UniversityRepository;
 
-public interface UniversityService {
+@Service
+public class UniversityService {
 
-	University create(University u);
+	@Autowired
+	UniversityRepository universityRepository;
 
-	University readById(Long id);
+	public University create(University u) {
+		return universityRepository.saveAndFlush(u);
+	}
 
-	University update(University u);
+	public University readById(Long id) {
+		return universityRepository.getOne(id);
+	}
 
-	void deleteById(Long id);
+	public University update(University u) {
+		return universityRepository.save(u);
+	}
 
-	List<University> findAll();
+	public void deleteById(Long id) {
+		universityRepository.deleteById(id);
+	}
+
+	public List<University> findAll() {
+		return universityRepository.findAll();
+	}
 
 }
